@@ -54,7 +54,7 @@ public class Values extends HttpServlet {
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         String firstName = req.getHeader("First_Name");
         String lastName = req.getHeader("Last_Name");
-        System.out.println("Hello Mr. "+firstName+" "+lastName+"!");
+        System.out.println("hi. "+firstName+" "+lastName+"!");
         var age = req.getParameter("age");
         System.out.println("Your age is:"+age);
     }
